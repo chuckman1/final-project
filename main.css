@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+
+body {
+    background-color: #efefef;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+
+#header {
+    background-color: white;
+    height: 200px;
+    position: fixed;
+    width: 80%;
+}
+
+#placeholder {
+    height: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #555;
+    padding: 15px 0 5px 30px;
+}
+
+h3 {
+    padding: 10px;
+    font-size: x-large;
+}
+
+h4 {
+    padding: 10px;
+    font-size: small;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#globalContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#commentsSection {
+    background-color: #dedede;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 0 30px;
+}
+
+#createAComment {
+    background-color: white;
+    padding: 30px;
+    width: 75%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+input[type=text] {
+    margin-right: 10px;
+    padding: 5px;
+    border: solid 1px gray;
+}
+
+#button {
+    color: lightskyblue;
+    background-color: #fff;
+    border: none;
+    font-size: larger;
+    margin-left: 5px;   
+}
+
+.postText {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+#commentInput {
+    flex-grow: 3;
+}
+
+.comment {
+    margin-bottom: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.editBox {
+    display: flex;
+}
+
+.editText {
+    flex-grow: 4;
+    padding: 5px;
+    border: solid 1px gray;
+    margin-bottom: 5px;
+}
+
+.editSubmit {
+    color: lightskyblue;
+    background-color: #fff;
+    border: none;
+    font-size: larger;
+    margin-left: 5px;   
+}
+
+.toggle {
+    display: none;
+}
+
+.edit, .delete {
+    padding: 5px;
+    display: inline;
+    border: none;
+    background-color: #fff;
+    color: lightskyblue;
+}
